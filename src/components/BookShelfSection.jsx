@@ -1,5 +1,5 @@
 import React from "react";
-import BookCard from "./bookCard";
+import BookCard from "./BookCard";
 
 function BookShelfSection({ heading, status, booksData }) {
   const filteredBooks = booksData.filter((book) => book.bookStatus === status);
