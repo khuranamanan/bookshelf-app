@@ -4,7 +4,7 @@ import { GoBackIcon } from "../assets/icons";
 import { useContext } from "react";
 import { BooksStatusContext } from "../context/booksStatusContext";
 import { ACTION_TYPES } from "../utils/constant";
-import BookCard from "../components/bookCard";
+import BookCard from "../components/BookCard";
 
 function SearchPage() {
   const navigate = useNavigate();
